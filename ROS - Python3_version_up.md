@@ -1,7 +1,5 @@
 # ROS - Python 3
 
----
-
 ## Environment
 
 - Ubuntu 18.04 LTS (Windows 10 듀얼 부팅)
@@ -80,7 +78,6 @@ python 3버전으로 실행하기 위해서는 파이썬 파일의 첫줄에는 
 
 
 
----
 
 ## References
 
@@ -93,8 +90,6 @@ https://ghostweb.tistory.com/803
 
 
 ## Trouble Shooting
-
----
 
 ROS 설치 후 python 3으로 버전업을 완료 한 후, ROS의 전체 코드를 빌드하고 실행하는 경우에 여러 에러 현상이 나타났다. 현재까지 나타난 에러와 그 해결 방법을 공개한다. 에러 제목은 공식명칭이 아닌 본인이 임의로 작성한 것이니 자신의 에러와 키워드가 비슷한 걸 찾으면 될 듯하다.
 
