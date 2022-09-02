@@ -1,5 +1,7 @@
 # ROS - Python 3
 
+
+
 ## Environment
 
 - Ubuntu 18.04 LTS (Windows 10 듀얼 부팅)
@@ -7,6 +9,7 @@
 - python 2.7
 
 ROS는 기본적으로 python 2.7 버전으로 설치가 된다. 그러나, python 3 버전으로 실행해야 하는 경우가 발생한다. 이후에 진행될 프로젝트들을 위해서 python 3 버전으로 업그레이드 해야할 필요가 있다. 
+
 
 
 
@@ -21,9 +24,11 @@ sudo apt install ros-melodic-desktop-full --fix-missing
 
 
 
+
 ## Change the Version
 
 파이썬 파일을 실행할 때에는 python 명령어와 파이썬 파일 .py를 명령창에 입력한다. 이 때, python 명령어는 기본 실행 버전으로 실행된다. ROS를 설치할 경우, python 2.7 버전으로 실행 됨을 확인할 수 있다. 만약, 기본실행 버전을 그대로 두고 싶다면 python3을 명령어로 입력하면 3 버전으로 실행이 가능하다.
+
 
 ### Check python version
 
@@ -68,6 +73,7 @@ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 2
 
 
 
+
 ## Run Python Code
 
 python 3버전으로 실행하기 위해서는 파이썬 파일의 첫줄에는 다음의 코드를 추가해야 한다.
@@ -92,6 +98,7 @@ https://ghostweb.tistory.com/803
 ## Trouble Shooting
 
 ROS 설치 후 python 3으로 버전업을 완료 한 후, ROS의 전체 코드를 빌드하고 실행하는 경우에 여러 에러 현상이 나타났다. 현재까지 나타난 에러와 그 해결 방법을 공개한다. 에러 제목은 공식명칭이 아닌 본인이 임의로 작성한 것이니 자신의 에러와 키워드가 비슷한 걸 찾으면 될 듯하다.
+
 
 ### 1) Catkin-pkg version error
 
